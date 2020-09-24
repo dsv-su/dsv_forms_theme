@@ -92,7 +92,7 @@
     <!-- Navbar -->
     <div class="navbar-header">
     	<div class="dsv-logo">
-		    <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img class="dsv-logo" src="<?php print drupal_get_path('theme', 'dsv_drupal_theme') . '/img/logo_dsv_se_big_dark_blue_crop.png'; ?>" /><span>Institutionen för data- och systemvetenskap</span></a>
+		    <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img class="dsv-logo" src="<?php print base_path() .'sites/all/themes/custom/dsv_forms_theme/img/logo_dsv_se_big_dark_blue_crop.png'; ?>" /><span>Institutionen för data- och systemvetenskap</span></a>
 		</div>
 		<div class=logo>
 		      <?php if ($logo): ?>
