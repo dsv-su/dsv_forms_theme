@@ -2,6 +2,12 @@ body {
   font-size: 13px;
 }
 
+.navbar-brand {
+  color: white !important;
+  padding-left: 30px;
+  height: 100%;
+}
+
 
 /*
  * Navbar styling
@@ -20,6 +26,10 @@ body {
    #navbar nav > ul.menu.nav.navbar-nav > li > a {
     font-size: 0.9em;
   }
+
+  .navbar-brand span {
+    display: none !important;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -32,6 +42,12 @@ body {
 @media (max-width: 767px) {
   #navbar nav > ul.menu.nav.navbar-nav > li > a {
     font-size: 0.9em;
+  }
+  .logo {
+    display: none;
+  }
+  .dsv-logo img {
+    display: none;
   }
 }
   
@@ -190,4 +206,8 @@ div.main-container section#block-system-lower h4 {
   background-image: url("../img/block-user-groups-1.gif");
   background-position: right center;
   background-repeat: no-repeat;
+}
+
+.webform-component-markup {
+  font-size: 16px;
 }
